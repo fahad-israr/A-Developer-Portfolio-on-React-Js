@@ -2,7 +2,7 @@
 ## Want to use This as your Portfolio page??
 Its very Simple
 
--->Clone/Fork this Repo
+-->Clone/Fork this Repository
 
 -->To Test your Fork run 
 ### `npm install` 
@@ -11,10 +11,7 @@ and then run
 
 ### Now, Edit the Details and your Portfolio is ready!!!
 
-
-
-
-
+----------------------------------------------------------------------------------------------------------------
 
 <br/>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
