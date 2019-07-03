@@ -143,7 +143,8 @@ function App() {
       </div>
         {/*------------Particle body Ends Here---------------------------*/}
         <div id='about' className='about'>
-          
+          <h1>About Me</h1>
+          <p>I am a Js Enthusiast and a Progressive Web App Developer and I love to work with  React Js [for UI] , Node Js [for Backend] and postgreSQL [for DBMS]</p> 
         </div>
     </div>
   );
