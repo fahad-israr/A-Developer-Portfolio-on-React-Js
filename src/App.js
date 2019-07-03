@@ -130,7 +130,7 @@ function App() {
                 <a title='Linkedin' className='fa'href='https://www.linkedin.com/in/fahad00cms' target='new'><FontAwesomeIcon icon={faLinkedinIn}/></a>
                 <a  title='Facebook' className='fa' href='https://facebook.com/fahad.israr.14' target='new'><FontAwesomeIcon icon={faFacebookF}/></a>
                 <a title='Github'  className='fa2' href='https://github.com/fahad-israr' target='new'><FontAwesomeIcon icon={faGithub}/></a>
-                <a title='Quora'  className='fa' href='https://www.quora.com/profile/Fahad-Israr' target='new'><FontAwesomeIcon icon={faQuora}/></a>
+                <a title='Quora'  className='fa quora' href='https://www.quora.com/profile/Fahad-Israr' target='new'><FontAwesomeIcon icon={faQuora}/></a>
              </div>
              <div className='pagelinks'>
                <a className='pagenav' href='#aboutMe'>About Me</a>

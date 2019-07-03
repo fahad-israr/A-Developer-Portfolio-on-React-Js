@@ -132,6 +132,12 @@
     color:#000;
     
 }
+@media screen and (max-width:900px){
+.quora{
+    display: none !important;
+
+}
+}
 .about{
     width:100%;
     height: 100vh;
