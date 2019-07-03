@@ -1,0 +1,134 @@
+.App{
+    background:#1a222c;
+    color:#fff;
+}
+.particles{
+    background: #1a222c;
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin:auto;
+    transform: translate(-50%, -50%);
+  
+}
+.header h1{
+    font-size:120px;
+    margin:0px;
+    line-height: 100px;
+}
+.header h2{
+    margin:20px 0 0 0 ; 
+    
+    font-size: 70px;
+}
+.icon-container{
+    margin-top:10px;
+}
+.fa{
+    margin:5px;
+}
+.fa2{
+    margin:5px;
+}
+.fa2>svg{
+    height:65px !important;
+    width:65px !important;
+    border:1.5px solid #fff;
+    border-radius: 35px;
+    transition-duration:.5s;
+    color:#1a222c;;
+    background: #fff;
+    
+
+}
+.fa2>svg:hover{
+    background: #000;
+    color:#fff;
+
+}
+.fa>svg{
+    height:50px !important;
+    width:50px !important;
+    padding: 8px;
+    border:1.5px solid #fff;
+    border-radius: 35px;
+    transition-duration:.5s;
+    color:#fff;
+}
+.fa>svg:hover{
+    background: #fff;
+    color:#000;
+
+}
+.pagelinks{
+    margin-top:40px;
+}
+.pagenav{
+    color:#fff;
+    padding:10px;
+    font-size: 18px;
+    text-decoration: none;
+    margin:5px;
+    border:1px solid #fff;
+    border-radius: 20px;
+    transition-duration:.5s;
+}
+.pagenav:hover{
+    color:#000;
+    background: #fff;
+}
+.down{
+    color:#fff;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+  
+    height: 100px;
+    fill: #fff;
+  
+    animation: pulse 1.3s infinite;
+
+}
+@keyframes pulse{
+    0%,100%{
+        opacity: .5;
+        bottom: 0px;
+    }
+    50%{
+        filter: none;
+        opacity: 1;
+        bottom: 10px;
+    }
+}
+.down>svg{
+    position:absolute;
+    transform-style: preserve-3d;
+    transform: translate(-50%,-50%);
+    animation: pulse 1.3s infinite;
+    width:100px;
+    height: 100px;
+}
+.down:hover{
+    color:#000;
+    
+}
