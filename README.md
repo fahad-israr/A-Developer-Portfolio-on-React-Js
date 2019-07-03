@@ -1,4 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Want to use This as your Portfolio page??
+Its very Simple
+
+-->Clone/Fork this Repo
+
+-->To Test your Fork run 
+### `npm install` 
+and then run
+### `npm start`
+
+### Now, Edit the Details and your Portfolio is ready!!!
+
+
+
+
+
+
+<br/>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
