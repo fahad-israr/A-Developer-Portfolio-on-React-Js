@@ -1,6 +1,7 @@
 .App{
     background:#1a222c;
     color:#fff;
+    
 }
 .particles{
     background: #1a222c;
@@ -140,11 +141,22 @@
 }
 .about{
     width:100%;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
+    min-height:100vh;
+    
+}
+@keyframes hue{
+0% {
+    filter: hue-rotate(0deg);
+}
+100% {
+    filter: hue-rotate(-360deg);
+}
 }
 .about>h1{
     font-size:70px;
@@ -152,5 +164,203 @@
 .about>p{
     max-width: 80%;
     text-align: center;
-    font-size:30px;
+    font-size:25px;
 }
+.about b{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.tech{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+width:100%;
+}
+.cms>h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.cms>svg{
+    width:100px !important;
+    height:100px !important;
+    color:#25AAE1;
+}
+.web-technologies>h2{
+    font-size:40px;
+    margin-bottom: 5px;
+}
+.web-icons{
+    display: flex;
+    
+}
+
+.web-icons>svg:nth-child(1){
+    color:#61dbfb;
+    width:120px !important;
+    height:120px;
+}
+.web-icons>svg:nth-child(2){
+    color:#94d82d;
+    width:150px !important;
+    height:150px;
+    margin-left: 5px;
+}
+
+.tools h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tools-icon{
+    display:flex;
+
+}
+.tools-icon>svg:nth-child(1){
+    width:120px !important;
+    height:120px !important;
+    color:#f49369;
+}
+.tools-icon>svg:nth-child(2){
+    width:120px !important;
+    height:120px !important;
+    color:#00B9f2;
+}
+.tools-icon>svg:nth-child(3){
+    width:120px !important;
+    height:120px !important;
+    color:#ffd43b;
+}
+.timeline{
+    width:100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.timeline>h1{
+    font-size:70px;
+    
+}
+.vertical-timeline-element-date{
+ color:#fff !important;
+ opacity:1 !important;
+ text-align: left;
+ font-size:1.5rem !important;
+ padding-top:0px !important;
+}
+@media screen and (max-width:700px){
+    .vertical-timeline-element-date{
+        text-align: center !important;
+        width:100%;
+        margin-top:5px;
+    }
+}
+.vertical-timeline-element-content{
+    background:none;
+    color:#fff !important;
+    box-shadow: none;
+    border:1px solid #fff;
+    text-align: center !important;
+}
+.vertical-timeline>div:last-child div{
+    border:none;
+}
+
+.vertical-timeline-element-content h1{
+    margin:0px;
+}
+.vertical-timeline-element-content h2{
+    margin:0px;
+    opacity: 1;
+    color:#fff;
+}
+.vertical-timeline-element-content p{
+    color:#fff;
+    font-size:16px;
+}
+.vertical-timeline-element-icon>svg{
+    width:24px !important;
+}
+.projects{
+    width:100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.projects>h1{
+    font-size: 70px;
+}
+.project-content{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.project-item{
+max-width:40%;
+border:1px solid #fff;
+border-radius: 10px;
+margin:auto;
+margin-top:50px;
+
+}
+@media screen and (max-width:700px){
+    .project-item{
+        max-width:90%;
+    }
+}
+.project-item>h1{
+    border-bottom:1px solid #fff;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.project-item img{
+    width:100%;
+}
+.options{
+    margin-top:5px;
+    border-top:1px solid #fff;
+    width:100%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    font-size:20px;
+    font-weight: bold;
+    min-height:35px;
+
+}
+@media screen and (min-width:700px){
+
+.project-item>h1{border-bottom: 2px dotted #fff}
+}
+.options>div{
+    border-left:1px solid #fff;
+    padding-top:5px;
+}
+.options>div:first-child{
+    border-left:none;
+}
+.options>div>a{
+    color:#fff;
+    text-decoration: none;
+    margin-top:10px;
+}
+
+.react-card-flip{
+    overflow: hidden;
+    
+}
+@media screen and (min-width:700px){
+    .react-card-flip{
+        height:280px;
+    }
+}
+.reverse>h1,h2,h3{font-weight: lighter !important;}
+.reverse>h1{margin-top:0px}
