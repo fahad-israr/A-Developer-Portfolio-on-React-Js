@@ -1,11 +1,27 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Fahad",
+  "name": "Fahad Israr",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "favicon.png",
+      "sizes": "144x144 96x96 48x48 72x72 36x36 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "fav192.png",
+      "sizes": "192x194",
+      "type": "image/png"
+    },
+    {
+      "src": "fav512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+
+    },
+    {
+      "src": "fav768.png",
+      "sizes": "768x768",
+      "type": "image/png"
     }
   ],
   "start_url": ".",

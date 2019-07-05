@@ -14,7 +14,7 @@ const resume = require("./resume/Resume_Fahad_Israr_May_2019.pdf");
 let particleconfig = {
   particles: {
     number: {
-      value: 60,
+      value: 40,
       density: {
         enable: true,
         value_area: 800
@@ -71,8 +71,8 @@ let particleconfig = {
       direction: "none",
       random: true,
       straight: false,
-      out_mode: "bounce",
-      bounce: true,
+      out_mode: "out",
+      bounce: false,
       attract: {
         enable: false,
         rotateX: 600,
@@ -178,7 +178,7 @@ function App() {
             </a>
             <a
               title="Quora"
-              className="fa quora"
+              className="fa"
               href="https://www.quora.com/profile/Fahad-Israr"
               target="new"
             >
@@ -197,7 +197,7 @@ function App() {
             </a>
           </div>
         </div>
-        <a href="#about" className="down">
+        <a href="#aboutMe" className="down">
           <FontAwesomeIcon icon={faChevronCircleDown} />
         </a>
       </div>
@@ -710,7 +710,7 @@ function App() {
           </a>
           <a
             title="Github"
-            className="fa2 quora"
+            className="fa2"
             href="https://github.com/fahad-israr"
             target="new"
           >
