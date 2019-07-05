@@ -396,17 +396,17 @@ function App() {
 
             <div className="options">
               <div onClick={() => toggle1(!view1)}>
-                <a href="#vvvn">
+                
                   More <FontAwesomeIcon icon={faInfoCircle} />
-                </a>
+               
               </div>
               <div>
-                <a href="#vn">
+                <a href="https://fahad-israr.github.io/iiittlibrary/" target='new'>
                   Launch <FontAwesomeIcon icon={faPlayCircle} />
                 </a>
               </div>
               <div>
-                <a href="#jhjh">
+                <a href="https://github.com/fahad-israr/IIITT-Library-Source-Code--Public" target='new'>
                   Source
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
@@ -428,7 +428,7 @@ function App() {
               <img
                 key="front"
                 src={require("./images/techfest.png")}
-                alt="IIITT Library"
+                alt="Coherence"
               />
               <div className="reverse" key="back">
                 <h1>
@@ -442,17 +442,17 @@ function App() {
 
             <div className="options">
               <div onClick={() => toggle2(!view2)}>
-                <a href="#vvvn">
+                
                   More <FontAwesomeIcon icon={faInfoCircle} />
-                </a>
+                
               </div>
               <div>
-                <a href="#vn">
+                <a href="https://fahad-israr.github.io/techfest/" target='new'>
                   Launch <FontAwesomeIcon icon={faPlayCircle} />
                 </a>
               </div>
               <div>
-                <a href="#jhjh">
+                <a href="https://github.com/fahad-israr/techfest" target='new'>
                   Source
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
@@ -474,7 +474,7 @@ function App() {
               <img
                 key="front"
                 src={require("./images/ecell.png")}
-                alt="IIITT Library"
+                alt="E Cell"
               />
               <div className="reverse" key="back">
                 <h1>
@@ -489,17 +489,17 @@ function App() {
 
             <div className="options">
               <div onClick={() => toggle3(!view3)}>
-                <a href="#vvvn">
+                
                   More <FontAwesomeIcon icon={faInfoCircle} />
-                </a>
+                
               </div>
               <div>
-                <a href="#vn">
+                <a href="https://fahad-israr.github.io/ecell/">
                   Launch <FontAwesomeIcon icon={faPlayCircle} />
                 </a>
               </div>
               <div>
-                <a href="#jhjh">
+                <a href="https://github.com/fahad-israr/ecell">
                   Source
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
@@ -521,7 +521,7 @@ function App() {
               <img
                 key="front"
                 src={require("./images/tp.png")}
-                alt="IIITT Library"
+                alt="T & P"
               />
               <div className="reverse" key="back">
                 <h1>
@@ -535,17 +535,17 @@ function App() {
 
             <div className="options">
               <div onClick={() => toggle4(!view4)}>
-                <a href="#vvvn">
+                
                   More <FontAwesomeIcon icon={faInfoCircle} />
-                </a>
+                
               </div>
               <div>
-                <a href="#vn">
+                <a href="https://fahad-israr.github.io/T-and-P-Website/" target='new'>
                   Launch <FontAwesomeIcon icon={faPlayCircle} />
                 </a>
               </div>
               <div>
-                <a href="#jhjh">
+                <a href="https://github.com/fahad-israr/T-and-P-Website" target='new'>
                   Source
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
@@ -590,17 +590,17 @@ function App() {
 
             <div className="options">
               <div onClick={() => toggle5(!view5)}>
-                <a href="#vvvn">
+                
                   More <FontAwesomeIcon icon={faInfoCircle} />
-                </a>
+               
               </div>
               <div>
-                <a href="#vn">
+                <a href="https://fahad-israr.github.io/Face_Recognizer/" target='new'>
                   Launch <FontAwesomeIcon icon={faPlayCircle} />
                 </a>
               </div>
               <div>
-                <a href="#jhjh">
+                <a href="https://github.com/fahad-israr/Face_Recognizer" target='new'>
                   Source
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
@@ -622,7 +622,7 @@ function App() {
               <img
                 key="front"
                 src={require("./images/cat.png")}
-                alt="IIITT Library"
+                alt="Cat App"
               />
               <div className="reverse" key="back">
                 <h1>
@@ -638,17 +638,17 @@ function App() {
 
             <div className="options">
               <div onClick={() => toggle6(!view6)}>
-                <a href="#vvvn">
+                
                   More <FontAwesomeIcon icon={faInfoCircle} />
-                </a>
+                
               </div>
               <div>
-                <a href="#vn">
+                <a href="https://fahad-israr.github.io/CatApp/" target='new'>
                   Launch <FontAwesomeIcon icon={faPlayCircle} />
                 </a>
               </div>
               <div>
-                <a href="#jhjh">
+                <a href="https://github.com/fahad-israr/CatApp" target='new'>
                   Source
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
@@ -668,7 +668,7 @@ function App() {
           </a>
           <br />
           <br />
-          Liked this Project?{" "}
+          Liked this Page?{" "}<br/>
           <a
             href="https://github.com/fahad-israr/A-Developer-Portfolio-on-React-Js"
             target="new"

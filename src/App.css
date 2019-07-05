@@ -339,6 +339,9 @@ margin-top:50px;
     min-height:35px;
 
 }
+.options>div:first-child{
+    cursor: pointer;
+}
 @media screen and (min-width:700px){
 
 .project-item>h1{border-bottom: 2px dotted #fff}
