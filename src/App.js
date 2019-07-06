@@ -260,7 +260,7 @@ function App() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date=" May 2019 - July 2019"
-            iconStyle={{ background: "#1a222c", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faDrupal} />}
           >
             <h1>IIT Bombay</h1>
@@ -271,7 +271,7 @@ function App() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date=" May 2019 -  Present"
-            iconStyle={{ background: "#1a222c", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faReact} />}
           >
             <h1>Lenshood</h1>
@@ -282,7 +282,7 @@ function App() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date=" Dec 2018 - Jan 2019"
-            iconStyle={{ background: "#1a222c", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faReact} />}
           >
             <h1>IoTrek</h1>
@@ -293,7 +293,7 @@ function App() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date=" August 2018 - Present"
-            iconStyle={{ background: "#1a222c", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faNodeJs} />}
           >
             <h1>Xungry.com</h1>
@@ -304,7 +304,7 @@ function App() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date=" August 2017 - Present"
-            iconStyle={{ background: "#1a222c", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faCode} />}
           >
             <h1>Web Dev Club, IIIT Trichy</h1>
@@ -315,7 +315,7 @@ function App() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date=" 2017 - 2021"
-            iconStyle={{ background: "#1a222c", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
             <h1>IIIT Trichy</h1>
@@ -326,7 +326,7 @@ function App() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May 2016"
-            iconStyle={{ background: "#1a222c", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faUniversity} />}
           >
             <h1>City Montessori School</h1>
@@ -337,7 +337,7 @@ function App() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May 2014"
-            iconStyle={{ background: "#1a222c", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faSchool} />}
           >
             <h1>City Montessori School</h1>
@@ -346,7 +346,7 @@ function App() {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            iconStyle={{ background: "#1a222c", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faAngleDoubleUp} />}
           ></VerticalTimelineElement>
         </VerticalTimeline>
