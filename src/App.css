@@ -141,7 +141,7 @@ a {
 }
 
 .pagenav:hover {
-	color: #000;
+	color: #000 !important;
 	background: #fff;
 }
 
