@@ -21,6 +21,12 @@ class Project extends Component {
     });
   }
 
+  toggleFlipped() {
+    this.setState({
+      isFlipped: !this.state.isFlipped
+    });
+  }
+
   render() {
     const project = this.state.project;
     return (
@@ -55,7 +61,7 @@ class Project extends Component {
         <div className="options">
           <div
             onClick={() => {
-              this.setFlipped(1);
+              this.toggleFlipped();
             }}
           >
             More <FontAwesomeIcon icon={faInfoCircle} />
