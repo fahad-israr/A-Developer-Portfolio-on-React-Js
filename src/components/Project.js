@@ -53,7 +53,11 @@ class Project extends Component {
         </ReactCardFlip>
 
         <div className="options">
-          <div onClick={()=>{this.setFlipped(1);}}>
+          <div
+            onClick={() => {
+              this.setFlipped(1);
+            }}
+          >
             More <FontAwesomeIcon icon={faInfoCircle} />
           </div>
           <div>

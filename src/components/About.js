@@ -7,13 +7,13 @@ import {
   faAngular,
   faAws
 } from "@fortawesome/free-brands-svg-icons";
-const lambda = require('../images/aws-lambda.svg');
-const dynamoDB = require('../images/aws-dynamodb.svg');
-const rds = require('../images/aws-rds.svg');
-const sns = require('../images/aws-sns.svg');
-const sqs = require('../images/aws-sqs.svg');
-const gateway = require('../images/aws-api-gateway.svg');
-const graphQL = require('../images/graphql.svg');
+const lambda = require("../images/aws-lambda.svg");
+const dynamoDB = require("../images/aws-dynamodb.svg");
+const rds = require("../images/aws-rds.svg");
+const sns = require("../images/aws-sns.svg");
+const sqs = require("../images/aws-sqs.svg");
+const gateway = require("../images/aws-api-gateway.svg");
+const graphQL = require("../images/graphql.svg");
 
 function About() {
   return (
