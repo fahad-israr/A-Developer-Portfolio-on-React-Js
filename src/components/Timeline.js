@@ -1,16 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faReact,
-  faNodeJs,
-  faDrupal
-} from "@fortawesome/free-brands-svg-icons";
-import {
   faCode,
-  faSchool,
   faGraduationCap,
-  faUniversity,
-  faAngleDoubleUp
+  faAngleDoubleUp,
+  faAward
 } from "@fortawesome/free-solid-svg-icons";
 import {
   VerticalTimeline,
@@ -18,105 +12,107 @@ import {
 } from "react-vertical-timeline-component";
 
 function Timeline() {
-    return (
-        <div className="timeline">
-          <h1>Timeline</h1>
-          <VerticalTimeline>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date=" May 2019 - July 2019"
-              iconStyle={{ background: "#000000", color: "#fff" }}
-              icon={<FontAwesomeIcon icon={faDrupal} />}
-            >
-              <h1>IIT Bombay</h1>
-              <h1>-Fellowship at FOSSEE 2019-</h1>
-              <p>Working and Contributing on Open Source Softwares like Drupal</p>
-            </VerticalTimelineElement>
-    
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date=" May 2019 -  Present"
-              iconStyle={{ background: "#000000", color: "#fff" }}
-              icon={<FontAwesomeIcon icon={faReact} />}
-            >
-              <h1>Lenshood</h1>
-              <h1>-Full Stack Dev-</h1>
-              <p>Developing a PWA for E-Commerce with React+Node+postgreSQL </p>
-            </VerticalTimelineElement>
-    
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date=" Dec 2018 - Jan 2019"
-              iconStyle={{ background: "#000000", color: "#fff" }}
-              icon={<FontAwesomeIcon icon={faReact} />}
-            >
-              <h1>IoTrek</h1>
-              <h1>-P.W.A Dev-</h1>
-              <p>Building an ERP system on React JS</p>
-            </VerticalTimelineElement>
-    
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date=" August 2018 - Present"
-              iconStyle={{ background: "#000000", color: "#fff" }}
-              icon={<FontAwesomeIcon icon={faNodeJs} />}
-            >
-              <h1>Xungry.com</h1>
-              <h1>-Full Stack Dev-</h1>
-              <p>Building a PWA using React+Node Framework</p>
-            </VerticalTimelineElement>
-    
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date=" August 2017 - Present"
-              iconStyle={{ background: "#000000", color: "#fff" }}
-              icon={<FontAwesomeIcon icon={faCode} />}
-            >
-              <h1>Web Dev Club, IIIT Trichy</h1>
-              <h1>-Full Stack Dev-</h1>
-              <p>Building Websites ,Apps and Utilities for College</p>
-            </VerticalTimelineElement>
-    
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date=" 2017 - 2021"
-              iconStyle={{ background: "#000000", color: "#fff" }}
-              icon={<FontAwesomeIcon icon={faGraduationCap} />}
-            >
-              <h1>IIIT Trichy</h1>
-              <h1>- B.Tech -</h1>
-              <p>Electronics and Communication Engineering</p>
-            </VerticalTimelineElement>
-    
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="May 2016"
-              iconStyle={{ background: "#000000", color: "#fff" }}
-              icon={<FontAwesomeIcon icon={faUniversity} />}
-            >
-              <h1>City Montessori School</h1>
-              <h1>- Intermediate -</h1>
-              <p>Scored 99.26 Percentile ISC 2016</p>
-            </VerticalTimelineElement>
-    
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="May 2014"
-              iconStyle={{ background: "#000000", color: "#fff" }}
-              icon={<FontAwesomeIcon icon={faSchool} />}
-            >
-              <h1>City Montessori School</h1>
-              <h1>- High School -</h1>
-              <p>Meritorious Student in ICSE 2014</p>
-            </VerticalTimelineElement>
-    
-            <VerticalTimelineElement
-              iconStyle={{ background: "#000000", color: "#fff" }}
-              icon={<FontAwesomeIcon icon={faAngleDoubleUp} />}
-            />
-          </VerticalTimeline>
-        </div>
-      );
+  return (
+    <div className="timeline">
+      <h1>Timeline</h1>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" Nov 2015 - Present"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faCode} />}
+        >
+          <h1>Synergetic Management Systems</h1>
+          <h2>Software Developer Team Leader</h2>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" Jul 2019"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faAward} />}
+        >
+          <h1>AWS Certified Developer - Associate</h1>
+          <h2>Amazon Web Services (AWS)</h2>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" March 2017"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faAward} />}
+        >
+          <h1>Scrum Master</h1>
+          <h2>International Scrum Institute</h2>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" Sep 2016"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faAward} />}
+        >
+          <h1>DevOps Foundation</h1>
+          <h2>DevOps Institute</h2>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" Jan 2013 - Nov 2015"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faCode} />}
+        >
+          <h1>ObjectMastery</h1>
+          <h2>Application Developer</h2>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" Oct 2011 - Jan 2013"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faCode} />}
+        >
+          <h1>Pentagon Digital</h1>
+          <h2>Developer</h2>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" 2009 - 2013"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
+        >
+          <h1>Monash University</h1>
+          <h2>Bachelor of Information Technology and Systems</h2>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" 2010"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faAward} />}
+        >
+          <h1>International Scholarship for Excellence </h1>
+          <h2>Monash University</h2>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" 2001 - 2006"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
+        >
+          <h1>Iran University of Science and Technology</h1>
+          <h2>Bachelor of Material Engineering - Metallurgy</h2>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faAngleDoubleUp} />}
+        />
+      </VerticalTimeline>
+    </div>
+  );
 }
 
 export default Timeline;
