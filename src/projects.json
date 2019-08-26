@@ -1,9 +1,16 @@
 [
   {
+    "title": "QuizApp",
+    "description": "React application that allows te user to choose the set of questions to answer.<br/>The questions might have single or multiple answer.<br />The answers will be shuffled every time.<br/>When user is finished answering the question they get the result and will calculate if passed based on the pass mark.",
+    "source": "https://github.com/aminfaz/QuizApp",
+    "thumbnail": "/images/projects/QuizApp.png",
+    "launch": "https://quiz.fazl.guru"
+  },
+  {
     "title": "Earthquake GeoJSON details",
     "description": "This small project retrieves the summary of earthquake recorded form USGS.<br/>This API implemented using GraphQL in order to respond to the request based on the details required.",
     "source": "https://github.com/aminfaz/USGS_Earthquake_GraphQL",
-    "thumbnail": "../images/USGS.png",
+    "thumbnail": "/images/projects/USGS.png",
     "launch": ""
   }
 ]

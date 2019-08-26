@@ -47,8 +47,7 @@ class Project extends Component {
         >
           <img
             key="front"
-            src={require("../images/USGS.png")}
-            //src={require("" + project.thumbnail)}
+            src={process.env.PUBLIC_URL + project.thumbnail}
             alt={project.title}
           />
           <div
