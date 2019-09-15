@@ -14,6 +14,7 @@ const sns = require("../images/logos/aws-sns.svg");
 const sqs = require("../images/logos/aws-sqs.svg");
 const gateway = require("../images/logos/aws-api-gateway.svg");
 const graphQL = require("../images/logos/graphql.svg");
+const docker = require("../images/logos/docker.svg");
 
 function About() {
   return (
@@ -43,44 +44,10 @@ function About() {
         <FontAwesomeIcon icon={faJs} color="#ffd43b" />
         <FontAwesomeIcon icon={faAngular} color="#D30025" />
         <FontAwesomeIcon icon={faReact} color="#61dbfb" />
+        <img src={docker} alt="docker" />
       </div>
     </div>
   );
 }
 
 export default About;
-
-/*
-<div className="tools">
-          <h2>U.I.</h2>
-          <div className="tools-icon">
-            <FontAwesomeIcon icon={faHtml5} />
-            <FontAwesomeIcon icon={faCss3} />
-            <FontAwesomeIcon icon={faJs} />
-          </div>
-        </div>
-
-        <div className="web-technologies">
-          <h2>P.W.A</h2>
-          <div className="web-icons">
-            <FontAwesomeIcon icon={faReact} />
-            <FontAwesomeIcon icon={faNode} />
-            <img
-              src={postgres}
-              alt="postgreSql Icon"
-              width="120px"
-              height="120px"
-            />
-          </div>
-        </div>
-
-        <div className="cms">
-          <h2>C.M.S.</h2>
-          <img
-            src={require("../images/drupal.png")}
-            alt="drupal-logo"
-            width="150px"
-            height="150px"
-          />
-        </div>
-        */

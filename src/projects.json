@@ -12,5 +12,12 @@
     "source": "https://github.com/aminfaz/USGS_Earthquake_GraphQL",
     "thumbnail": "/images/projects/USGS.png",
     "launch": ""
+  },
+  {
+    "title": "Job Board",
+    "description": "The Application is parsing a list of jobs and applicants from a remote server in csv format and render it in a page.<br/><br/>The application will load the CSV file only at start-up and stores it in a relational database. (assumption: applicant names are unique). <br/>Users is able to view a list of jobs with title, location and date.<br/>Users is able to click on a job to view more details about it.",
+    "source": "https://github.com/aminfaz/JobBoard",
+    "thumbnail": "/images/projects/JobBoard.png",
+    "launch": "https://job-board.fazl.guru"
   }
 ]
