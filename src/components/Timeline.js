@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCode,
+  faBriefcase,
   faGraduationCap,
   faAngleDoubleUp,
   faAward
@@ -20,7 +20,7 @@ function Timeline() {
           className="vertical-timeline-element--work"
           date=" Oct 2019 - Present"
           iconStyle={{ background: "#000000", color: "#fff" }}
-          icon={<FontAwesomeIcon icon={faCode} />}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
         >
           <h1>Mondo</h1>
           <h2>Senior Software Developer</h2>
@@ -30,7 +30,7 @@ function Timeline() {
           className="vertical-timeline-element--work"
           date=" Nov 2015 - Oct 2019"
           iconStyle={{ background: "#000000", color: "#fff" }}
-          icon={<FontAwesomeIcon icon={faCode} />}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
         >
           <h1>Synergetic Management Systems</h1>
           <h2>Software Developer Team Leader</h2>
@@ -70,7 +70,7 @@ function Timeline() {
           className="vertical-timeline-element--work"
           date=" Jan 2013 - Nov 2015"
           iconStyle={{ background: "#000000", color: "#fff" }}
-          icon={<FontAwesomeIcon icon={faCode} />}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
         >
           <h1>ObjectMastery</h1>
           <h2>Application Developer</h2>
@@ -80,7 +80,7 @@ function Timeline() {
           className="vertical-timeline-element--work"
           date=" Oct 2011 - Jan 2013"
           iconStyle={{ background: "#000000", color: "#fff" }}
-          icon={<FontAwesomeIcon icon={faCode} />}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
         >
           <h1>Pentagon Digital</h1>
           <h2>Developer</h2>
