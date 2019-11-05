@@ -18,7 +18,17 @@ function Timeline() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date=" Nov 2015 - Present"
+          date=" Oct 2019 - Present"
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faCode} />}
+        >
+          <h1>Mondo</h1>
+          <h2>Senior Software Developer</h2>
+        </VerticalTimelineElement>
+    
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" Nov 2015 - Oct 2019"
           iconStyle={{ background: "#000000", color: "#fff" }}
           icon={<FontAwesomeIcon icon={faCode} />}
         >
