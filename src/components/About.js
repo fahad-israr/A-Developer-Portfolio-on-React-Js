@@ -15,6 +15,9 @@ import sqs from "../images/logos/aws-sqs.svg";
 import gateway from "../images/logos/aws-api-gateway.svg";
 import graphQL from "../images/logos/graphql.svg";
 import docker from "../images/logos/docker.svg";
+import stepFunctions from "../images/logos/aws-step-functions.png";
+import cdk from "../images/logos/cdk.png";
+import projen from "../images/logos/projen.png";
 
 function About() {
   return (
@@ -41,6 +44,9 @@ function About() {
         <img src={rds} alt="AWS RDS" />
         <img src={sns} alt="AWS SNS" />
         <img src={sqs} alt="AWS SQS" />
+        <img src={stepFunctions} alt="AWS Step Functions" />
+        <img src={cdk} alt="AWS CDK" />
+        <img src={projen} alt="Projen" />
         <FontAwesomeIcon icon={faJs} color="#ffd43b" />
         <FontAwesomeIcon icon={faAngular} color="#D30025" />
         <FontAwesomeIcon icon={faReact} color="#61dbfb" />
