@@ -3,11 +3,9 @@ import Particles from "react-particles-js";
 import Contact from "./Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faDownload,
   faChevronCircleDown
 } from "@fortawesome/free-solid-svg-icons";
 
-const resume = require("../resume/Amin_Fazl.pdf");
 
 const particleconfig = {
   particles: {
@@ -139,9 +137,6 @@ function Particle() {
           </a>
           <a className="pagenav" href="#projects">
             Projects
-          </a>
-          <a className="pagenav" href={resume} download>
-            Resume <FontAwesomeIcon icon={faDownload} />
           </a>
         </div>
       </div>

@@ -21,7 +21,7 @@ function Contact() {
       <a
         title="Github"
         className="fa2"
-        href="https://github.com/aminfaz"
+        href="https://github.com/AminFazlMondo"
         target="new"
       >
         <FontAwesomeIcon icon={faGithub} />
