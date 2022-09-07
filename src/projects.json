@@ -1,5 +1,40 @@
 [
   {
+    "title": "Lerna Projen",
+    "description": "This is a library to use manage mono repositories using projen.",
+    "source": "https://github.com/AminFazlMondo/Lerna-Projen",
+    "thumbnail": "/images/projects/lernaProjen.png",
+    "launch": ""
+  },
+  {
+    "title": "Axios Error Redact",
+    "description": "Library to redact sensitive information from Axios errors. This can be used as an response interceptor for axios instances, or can be used standalone.",
+    "source": "https://github.com/AminFazlMondo/Axios-Error-Redact",
+    "thumbnail": "/images/projects/axiosErrorRedact.png",
+    "launch": ""
+  },
+  {
+    "title": "Deployable Typescript AWS CDK App Projen Project",
+    "description": "Inspired by projen This is a projen project for typescript AWS CDK Applications deployed via github actions.",
+    "source": "https://github.com/AminFazlMondo/deployable-awscdk-app-ts#deployable-typescript-aws-cdk-app-projen-project",
+    "thumbnail": "/images/projects/deployableAwscdkAppTs.png",
+    "launch": ""
+  },
+  {
+    "title": "Check Deployed Environment GitHub action",
+    "description": "This github action checks if a given commit is the active deployment on a given environment in GitHub",
+    "source": "https://github.com/AminFazlMondo/check-deployed-environment",
+    "thumbnail": "/images/projects/hasActiveDeployment.png",
+    "launch": ""
+  },
+  {
+    "title": "AWS Local UI",
+    "description": "This is a UI to look into the AWS resources created in LocalStack and aimed to be used for developers. This project is inspired by LocalStack",
+    "source": "https://github.com/AminFazlMondo/AWS-Local-UI",
+    "thumbnail": "https://raw.githubusercontent.com/AminFazlMondo/AWS-Local-UI/main/docs/preview.gif",
+    "launch": ""
+  },
+  {
     "title": "Markr",
     "description": "API to ingest & process test results. The application has following capabilities.<br/><br/><strong>Import Data</strong><br/>This application will consume specific format of XML in order to import test result taken for a given student in a given test. The application is very strict with the payload and if there is any part of payload does not comply with the expected structure, the whole payload will be ignored. Tha API is capable of processing same payload multiple times and this will not result in duplicate records.<br/><br/><strong>Aggregate Data for reporting</strong><br/>The application is capable of reporting the aggregate result for a given test. Since this is a frequent request the aggregate data have been precalculated for better user experience.",
     "source": "https://github.com/aminfaz/Markr",

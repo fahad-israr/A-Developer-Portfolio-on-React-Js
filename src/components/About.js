@@ -33,6 +33,8 @@ function About() {
         <br />
         Proven track record of efficient and effective team member management,
         with a strong knowledge in NodeJS, C#, AWS, and DevOps.
+        <br />
+        Things that I am passionate about; Open source community, Serverless technology, Developer experience
       </p>
       <div className="tech">
         <FontAwesomeIcon icon={faNode} color="#7FBD2F" />
